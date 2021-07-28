@@ -19,6 +19,7 @@ Table 1 summarizes the comparison of the results obtained for challenging scenes
 - Accordingly for the experiments, the evaluation was carried out using an AWS EC2 instance, equiped with the NVIDIA Tesla M60 GPU, allowing for GPU acceleration and supporting parallel computing platform and programming models. 
 - Additionally the EC2 instance is headless(not attached to a monitor) and the pangolin software, which is used in the  algorithm, uses OpenGL. Firstly, The complication arises as normal ssh session and x11 forwarding do not support OpenGL. Additionally, this kind of set up creates number of complications as sending the pixels and afterwards rendering on a local GPU is very time consuming and makes it near impossible to interactively observe the results and a point cloud.
 - The mentioned complications were solved by redirecting the 3D rendering commands from Linux OpenGL applications to 3D accelerator hardware in a dedicated server and displaying the rendered output interactively to a thin client located elsewhere on the network.
+- Refer to [Configuration_scripts](https://github.com/Gio-ch/AWS_Configuration_scripts) for the configuration of server-side hardware-accelerated 3D rendering.
 - An open source program, <a href="https://www.virtualgl.org/">VirtualGL</a>, was used to allow for the posssibility of 3d rendering on the remote server.
 
 ## Getting started
