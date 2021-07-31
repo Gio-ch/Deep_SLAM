@@ -1,6 +1,6 @@
 # Deep_SLAM
 Deep_SLAM is a visual SLAM system designed for non-static environments.
-Traditional SLAM algorithms’ non-geometric modules are limited by data association tasks and have limits in improving SLAM performance in precense of moving objectss. The objective of this work was to investigate improving robustness and performance of SLAM system within dynamic environments. Emphasis was put on improving conventional SLAM framework’s trajectory estimation using information provided by a deep neural network. The system builds on a state of the art ORB-SLAM algorithm.
+Traditional SLAM algorithms’ non-geometric modules are limited by data association tasks and have limits in improving SLAM performance in precense of moving objects. The objective of this work was to investigate improving robustness and performance of SLAM system within dynamic environments. Emphasis was put on improving conventional SLAM framework’s trajectory estimation using information provided by a deep neural network. The system builds on a state of the art ORB-SLAM algorithm.
 
 Table 1 summarizes the comparison of the results obtained for challenging scenes. The evaluation was carried out on the most dynamic scenes in the [TUM dataset](http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets)
 
